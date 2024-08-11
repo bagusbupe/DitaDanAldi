@@ -35,7 +35,7 @@
         }
         
         body { 
-        	background: #FEF0EF;
+        	background: #F7FAFB;
         	overflow-x:hidden;
         }
 
@@ -57,47 +57,24 @@
 			height:150px;
 			width: 100%;
 			position: fixed;
-			top:-70px;
-	 		background-image: url(share/imgFlower.png);
-	 		background-size: 150px;
+			top:-74px;
+	 		background-image: url(share/bottom.png);
+	 		background-size: 210px;
 	 		background-repeat: repeat-x; /* Pengulangan hanya sepanjang sumbu Y */
   			transform: rotate(-180deg);
   			z-index: 1;
 		}
-		.topFlower1{
-			height:150px;
-			width: 100%;
-			position: fixed;
-			top:-70px;
-	 		background-image: url(share/imgFlower.png);
-	 		background-size: 150px;
-	 		background-repeat: repeat-x; /* Pengulangan hanya sepanjang sumbu Y */
-  			background-position-x: 80px;
-  			z-index: 1;
-		}	
 
 		.bottomFlower{
 			height:150px;
 			width: 100%;
 			position: fixed;
-			bottom:-70px;
-	 		background-image: url(share/imgFlower.png);
-	 		background-size: 150px;
+			bottom:-77px;
+	 		background-image: url(share/bottom.png);
+	 		background-size: 200px;
 	 		background-repeat: repeat-x; /* Pengulangan hanya sepanjang sumbu Y */
-  			transform: rotate(-180deg);
   			z-index: 1;
-		}		
-		.bottomFlower1{
-			height:150px;
-			width: 100%;
-			position: fixed;
-			bottom:-70px;
-	 		background-image: url(share/imgFlower.png);
-	 		background-size: 150px;
-	 		background-repeat: repeat-x; /* Pengulangan hanya sepanjang sumbu Y */
-  			background-position-x: 80px;
-  			z-index: 1;
-		}
+		}	
 
 		@media(max-width:780px){
 			.dvContainerAi{
@@ -110,7 +87,7 @@
 			.dvCountDown{
 				padding: 10px;
 				margin: 5px!important;
-				background: #FFC8F3;
+				background: #000;
 				width: 80px;
 				border-radius:10px;
 				color:white;
@@ -119,6 +96,7 @@
 			}
 			.unit-label{
 				font-size: 10px!important;
+				color:#fff;
 			}
 			#target-date{
 				font-size: 12px;
@@ -140,27 +118,28 @@
 		.name {
 		  font-family: 'NamaFont1', sans-serif;
 		  font-size: 50px;
-		  color:#603416;
+		  color:#000;
 		}
 		.dvCountDown{
 			padding: 10px;
 			margin: 10px;
-			background: #FFC8F3;
+			background: #000;
 			width: 80px;
 			border-radius:10px;
 			color:white;
 			font-size: 18px;
 			font-weight: 600;
-			 color:#603416;
+			 color:#000;
 		}
 		.unit-label{
 			font-size: 13px;
+			color:#fff;
 		}
 		#target-date{
-			 color:#603416;
+			 color:#000;
 		}
 		.titleWedding{
-			 color:#603416;
+			 color:#000;
 			 font-size: 15px;
 		}
 		.imgBismillah{
@@ -169,31 +148,31 @@
 		.nameDesc{
 			font-size: 40px;
 			font-family: 'NamaFont', sans-serif;
-			color:#603416;
+			color:#000;
 		}
 		p{
-			color:#603416;
+			color:#000;
 		}
 		.card{
-			background: #FFC8F3;
-			box-shadow: 0 4px 8px rgba(255, 200, 243, 0.7);
+			background: #F7FAFB;
+			box-shadow: 0 4px 8px #F7FAFB;
 
 		}
 		.btnLoct{
 			width:200px;
 			border-radius: 50px;
-			background: #603416;
+			background: #000;
 			color:white;
 		}
 		.btnLoct:hover{
 			width:200px;
 			border-radius: 50px;
-			background: #603416;
+			background: #000;
 			color:white;
 		}
 		#playPauseButton{
-			background: #603416;
-	  		border: 2px solid #603416;
+			background: #000;
+	  		border: 2px solid #000;
 	  		padding: 7px;
 	  		border-radius: 100px;
 	  		width: 40px;
@@ -236,7 +215,7 @@
 			   
 	    			<div data-aos="fade-up" data-aos-duration="2000" class="d-flex justify-content-center">
 						<div class="dvContainerAi">
-		    				<img class="img-fluid" src="share/imgAI.png">
+		    				<img class="img-fluid" src="share/dua.png">
 		    			</div>
 	    			</div>
 
@@ -244,19 +223,19 @@
 
 					<div id="countdown" class="d-flex justify-content-center">
 						<div class="dvCountDown" data-aos="fade-up" data-aos-duration="500">
-			 				<div id="days">--</div>
+			 				<div id="days" style="color:#fff">--</div>
 	  						<div class="unit-label">Hari</div>
 						</div>
 						<div class="dvCountDown" data-aos="fade-up" data-aos-duration="1000">
-							<div id="hours">--</div>
+							<div id="hours" style="color:#fff">--</div>
 	  						<div class="unit-label">Jam</div>
 						</div>
 	 					<div class="dvCountDown" data-aos="fade-up" data-aos-duration="1500">
-	 						<div id="minutes">--</div>
+	 						<div id="minutes" style="color:#fff">--</div>
 	  						<div class="unit-label">Menit</div>
 	 					</div>
 	  					<div class="dvCountDown" data-aos="fade-up" data-aos-duration="2000">
-	  						 <div id="seconds">--</div>
+	  						 <div id="seconds" style="color:#fff">--</div>
 	  						<div class="unit-label">Detik</div>
 	  					</div>
 					</div>
@@ -267,7 +246,7 @@
 					<p data-aos="fade-up" data-aos-duration="2000">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta’ala, Insya Allah kami akan menyelenggarakan Acara Pernikahan :</p>
 					<div class="row">
 						<div class="col-12 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="3000">
-							<img class="img-fluid" style="width:30%" src="share/akhwat.png">
+							<img class="img-fluid" style="width:30%" src="share/cewe.png">
 							
 						</div>
 						<div class="col-12" data-aos="fade-up" data-aos-duration="1000">
@@ -279,7 +258,7 @@
 					<p class="nameDesc" data-aos="fade-up" data-aos-duration="1000">&</p>
 					<div class="row">
 						<div class="col-12 d-flex justify-content-center"  data-aos="fade-up" data-aos-duration="1000">
-							<img class="img-fluid" style="width:30%" src="share/ikhwan.png">
+							<img class="img-fluid" style="width:30%" src="share/laki.png">
 							
 						</div>
 						<div class="col-12"  data-aos="fade-down" data-aos-duration="1000">
@@ -379,15 +358,11 @@
 	    								<div class="carousel-item">
 	      									<img src="share/Dita4.jpg" style="border-radius: 8px;" class="d-block w-100"  alt="...">
 	    								</div>
-	    								<div class="carousel-item">
-	      									<img src="share/Dita5.jpg" style="border-radius: 8px;" class="d-block w-100"  alt="...">
-	    								</div>
+	    								
 	    								<div class="carousel-item">
 	      									<img src="share/Dita6.jpg" style="border-radius: 8px;" class="d-block w-100"  alt="...">
 	    								</div>
-	    								<div class="carousel-item">
-	      									<img src="share/Dita7.jpg" style="border-radius: 8px;" class="d-block w-100"  alt="...">
-	    								</div>
+	    							
 	  								</div>
 	  								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
 	    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -404,7 +379,7 @@
 					
 				</div>
 				<div class="mt-5 pt-5 pb-5 text-center">
-					<i aria-hidden="true" style="color:#603416;font-size: 35px;" class="fas fa-gift"></i>
+					<i aria-hidden="true" style="color:#000;font-size: 35px;" class="fas fa-gift"></i>
 
 					<p class="name" data-aos="fade-up" data-aos-duration="1000">Wedding Gift</p>
 					<div class="d-flex justify-content-center">
@@ -455,7 +430,7 @@
 	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-fullscreen">
 	    <div class="modal-content">
-	      <div class="modal-body" style="background: #FEF0EF;">
+	      <div class="modal-body" style="background: #F7FAFB;">
 	      		<div class="row justify-content-center">
 					<div class="col-md-5">
 						<div class="text-center pt-3">
@@ -467,7 +442,7 @@
 			   
 	    					<div data-aos="fade-up" data-aos-duration="2000" class="d-flex justify-content-center">
 								<div class="dvContainerAi">
-		    						<img class="img-fluid" src="share/imgAI.png">
+		    						<img class="img-fluid" src="share/dua.png">
 		    					</div>
 	    					</div>
 	    					<p><div id="nama-tamu"></div></p>
